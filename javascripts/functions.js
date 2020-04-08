@@ -18,3 +18,15 @@ let arrMax = arr => {
   });
   console.log(largest);
 };
+
+// Step 3D - returns the sum of even numbers in the array
+let arr = [];
+let sumEvens = arr => {
+  let sum = 0;
+  for (let value of arr) {
+    if (value % 2 == 0) {
+      sum = sum + value;
+    }
+  }
+  return sum;
+};
