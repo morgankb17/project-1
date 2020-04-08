@@ -30,3 +30,10 @@ let sumEvens = arr => {
   }
   return sum;
 };
+
+// Step 3E XC - returns the number representing ch's position in alphabet
+let ch = "";
+function alphaPosition(ch) {
+  let string = ch.toLowerCase();
+  return string.charCodeAt(0) - 96;
+}
