@@ -1,3 +1,5 @@
+![github octocat](images/github_octocat.png)
+
 # CIT 281 Project 1
 
 ## Learning Objectives
